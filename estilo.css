@@ -1,0 +1,57 @@
+/*Entendendo a parallax*/
+
+body{
+    margin: 0;
+    font: 16px "lato", sans-serif;
+    color: #777;
+    height: 100%;
+}
+.conteudo{
+    color: #140909;
+    background: white;
+    text-align: justify;
+    padding: 50px 80px;
+    border: 1px solid blue;
+}
+h3{
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    letter-spacing: 6px;
+}
+/*Efeito Paralax*/
+.caixa1, .caixa2{
+    border: 1px solid red;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.caixa1{
+   background-image: url(terceirafoto.jpg);
+   height: 400px;
+}
+.caixa2{
+    background-image: url(programacao-para-criancas.jpeg);
+    height: 700px;
+ }
+ .caixa3{
+    height: 700px;
+    background-image: url(post2.jpg);
+    border: 1px solid rgb(158, 202, 210);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    background-attachment: fixed;
+}
+.caixa4{
+    height: 700px;
+    background-image: url(play.jpg);
+    border: 1px solid rgb(158, 202, 210);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    background-attachment: fixed; 
+}
